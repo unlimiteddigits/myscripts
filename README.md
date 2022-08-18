@@ -6,5 +6,3 @@ git commit -m "1st commit"
 git branch -M main
 git remote add origin https://github.com/unlimiteddigits/myscripts.git
 git push -u origin main
-
-
