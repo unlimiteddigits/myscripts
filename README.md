@@ -19,3 +19,4 @@ Always use double quotes around the variable names to avoid any word splitting o
 
 Bash does not segregate variables by “type”, variables are treated as integer or string depending on the context.
 
+
