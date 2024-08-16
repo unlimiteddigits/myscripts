@@ -1,6 +1,35 @@
 <!DOCTYPE html>
 <html>
     <head>
+   
+    </head>
+  
+    <body onload="myOnloadFunction()">
+      <script src="custom.js">
+      </script>  
+
+        <h1 title="Hi">Hello World!</h1>
+        <hr>
+        <p style="color:blue;">This is a paragraph.</p>
+        <p style="font-family:courier;">This is a paragraph.</p>
+        <p title="About W3Schools">W3Schools is a web developer's site.</p>
+        <button type="button" onclick="getDateAndTime()">
+          Click me to display Date and Time.
+        </button>
+        <button type="button" onclick="listPrimeNumbers(3)">
+          Click me to list a number.
+        </button>
+        <p>x = Hi </p>
+        <p id="myText">Hi.  Default on load if onload isn't used.</p> 
+        <p> doc write = 
+            <script type="text/javascript">
+                document.write(x);
+              </script>
+        </p>
+    </body>
+</html>
+
+
 <!--
 <script type="text/javascript">
 const prompts = require('prompts')();
@@ -31,30 +60,4 @@ run();
         </script>  
 -->
 
-      
-    </head>
-  
-    <body onload="myOnloadFunction()">
-      <script src="custom.js">
-      </script>  
-
-        <h1 title="Hi">Hello World!</h1>
-        <hr>
-        <p style="color:blue;">This is a paragraph.</p>
-        <p style="font-family:courier;">This is a paragraph.</p>
-        <p title="About W3Schools">W3Schools is a web developer's site.</p>
-        <button type="button" onclick="getDateAndTime()">
-          Click me to display Date and Time.
-        </button>
-        <button type="button" onclick="listPrimeNumbers(3)">
-          Click me to list a number.
-        </button>
-        <p>x = Hi </p>
-        <p id="myText">Hi.  Default on load if onload isn't used.</p> 
-        <p> doc write = 
-            <script type="text/javascript">
-                document.write(x);
-              </script>
-        </p>
-    </body>
-</html>
+   
