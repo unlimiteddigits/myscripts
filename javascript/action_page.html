@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>Action Page</h1>
+<p>This is a from ID Demo.</p>
+<p id="demo"></p>
+
+<!--
+ file:///C:/Data/html/action_page.html?fname=John&lname=Doe
+ 
+-->
+<p>This is a from ID fname.</p>
+<p id="fname"></p>
+
+<p>This is a from ID lname.</p>
+<p id="lname"></p>
+
+ <script>
+    for (var x=0, y=3; x<5; x++, y=x*3){
+	 document.write("x:"+x+" ")
+	 document.write("y:"+y+" _____ ")
+	}
+	document.write('<br>New lines<br>');
+	var query = window.location.search.substring(1);
+	var Param=query.split("&");
+    var Field=query.split("=");
+	var Name=Field[1].split("&");
+    document.getElementById("fname").innerHTML = Name[0];
+	Name=Field[2].split("&");
+    document.getElementById("lname").innerHTML = Name[0];
+	for (var i=0; i<Param.length; i++) {
+		document.write("<br>Param-> "+Param[i]);
+		var sName=Param[i].split("=");
+		document.write("<br> Split up -> "+sName[1]);
+	}
+</script>
+
+<script>
+document.getElementById("demo").innerHTML = window.location.search.substring(1);
+</script> 
+
+</body>
+</html>
