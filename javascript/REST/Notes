@@ -1,0 +1,16 @@
+
+https://api.polygon.io/v2/aggs/ticker/X:BTCUSD/range/1/day/2023-01-09/2023-01-09?apiKey=Lv_E905oWriVZpHHAOXkkq3FQfZ28yKd
+
+
+curl -i https://api.polygon.io/v2/aggs/ticker/X:BTCUSD/range/1/day/2024-08-09/2024-08-09 \
+    -H "authorization: Bearer Lv_E905oWriVZpHHAOXkkq3FQfZ28yKd"
+    -d ""
+
+curl -i https://api.polygon.io/v2/aggs/ticker/X:XRPUSD/range/1/day/2024-08-09/2024-08-09 \
+    -H "authorization: Bearer Lv_E905oWriVZpHHAOXkkq3FQfZ28yKd"
+
+
+
+curl -i http://dev.myapp.com/api/users \
+  -H "Authorization: Basic Ym9zY236Ym9zY28=" \
+  -H "Authorization: Bearer mytoken123"
