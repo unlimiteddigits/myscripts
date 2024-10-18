@@ -8,6 +8,7 @@ function myOnloadFunction(){
 }
 
 function CheckXRP(){
+  console.clear;
   document.getElementById('myText').innerHTML = 'Checking';
 
   rest.stocks.aggregates("AAPL", 1, "day", "2023-01-01", "2019-04-14").then((data) => {
