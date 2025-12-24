@@ -4,7 +4,7 @@ const rest = restClient("Lv_E905oWriVZpHHAOXkkq3FQfZ28yKd");
 console.log("Hello")
 
 function myOnloadFunction(){
-  document.getElementById('myText').innerHTML = "Press the button to check XRPs price yesterday.";
+  document.getElementById('myText').innerHTML = "Hello, my name is Matthew, Please Press the button to check XRPs price yesterday.";
 }
 
 function CheckXRP(){
